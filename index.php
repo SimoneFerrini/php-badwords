@@ -7,6 +7,13 @@
     <title>PHP Badwords</title>
 </head>
 <body>
+    <form action="./soluzione.php" method="GET">
+        <h1>Compila il form!</h1>
+        <textarea name="paragrafo" placeholder="Inserire paragrafo" cols="30" rows="10" required></textarea>
+        <input type="text" placeholder="Bad - word" name="bad-word" required>
+        <input type="submit">
+
+    </form>
     
 </body>
 </html>
